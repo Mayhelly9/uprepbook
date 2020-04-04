@@ -1,0 +1,80 @@
+#title {
+  text-align: center;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+#pic {
+  width: 100%;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+body {
+  background-color: green;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+#back {
+  font-family: papyrus;
+  color: white;
+  height: 40px;
+  width: 50px;
+  background-color: black;
+  font-weight: 100px;
+}
+#next {
+  font-family: papyrus;
+  color: white;
+  height: 40px;
+  width: 50px;
+  background-color: black;
+  font-weight: 100px;
+}
+#title {
+  color: white;
+  font-family: papyrus;
+  font-size: 50px;
+w  font-weight: 50px;
+}
+#quote {
+  font-family: marker felt;
+  color: white;
+  font-size: 30px;
+}
+#name {
+  font-family: marker felt;
+  color: navy;
+  font-size: 50px;
+  font-weight: 20px;
+}
+#superlative {
+  font-family: marker felt;
+  color: navy;
+  font-size: 50px;
+  font-weight: 20px;
+}
+#meme {
+  font-family: marker felt;
+  color: red;
+  font-size: 25px;
+  font-weight: 20px;
+  border-radius: 2px;
+}
+
+img {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 150px;
+  border-radius: 50%;
+  border-color: yellow;
+}
